@@ -1,0 +1,12 @@
+.navbar{
+	background-color: #DDEEBB;
+}
+.navbar-nav>li>a{
+	line-height: 38px;
+	color: #000000;
+}
+.navbar-brand{
+	line-height: 38px;
+	color: #000000;
+}
+
