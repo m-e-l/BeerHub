@@ -10,6 +10,37 @@
 	color: #000000;
 }
 
+.intro{
+background-color: #AADEBB;
+}
+
+.equipment{
+background-color: #DDDEBB;
+}
+
+.process{
+background-color: #DDDEFF;
+}
+
+.example{
+background-color: #DDAABB;
+}
+
+.resources{
+background-color: #AADEBB;
+}
+
+.navbar{
+margin-bottom: 0px;
+}
+
+@media (min-width: 1200px){
+.container {
+width: 970px;
+}
+
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
