@@ -10,8 +10,15 @@
 	color: #000000;
 }
 
+body{
+  font-family: Arial,"Rosario"sans-serif;
+font-size: 14px;
+line-height: 1.42857143;
+color: #000;
+}
+
 .intro{
-background-color: #AADEBB;
+background-color: #FFF;
 }
 
 .equipment{
@@ -19,15 +26,15 @@ background-color: #DDDEBB;
 }
 
 .process{
-background-color: #DDDEFF;
+background-color: #FFF;
 }
 
 .example{
-background-color: #DDAABB;
+background-color: #DDDEBB;
 }
 
 .resources{
-background-color: #AADEBB;
+background-color: #FFF;
 }
 
 .navbar{
@@ -41,29 +48,4 @@ width: 970px;
 
 }
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-  height: 500px;
-  margin-bottom: 60px;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 500px;
-  background-color: #777;
-}
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 500px;
-}
 
