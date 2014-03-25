@@ -10,31 +10,54 @@
 	color: #000000;
 }
 
+
+h1, h2, h3{
+  font-family: times; 
+  font-size: 5vh;
+  line-height: 3vh;
+}
+
+
 body{
   font-family: Arial,"Rosario"sans-serif;
-font-size: 14px;
-line-height: 1.42857143;
+font-size: 3vh;
+line-height: 4vh;
 color: #000;
 }
 
+.navbar-nav, .navbar-brand{
+  font-family: times;
+}
+
+.navbar-brand:hover{
+  color: #;
+  
+}
+
+
 .intro{
 background-color: #FFF;
+height: 100vh;
 }
 
 .equipment{
 background-color: #DDDEBB;
+height: 100vh;
 }
 
 .process{
 background-color: #FFF;
+height: 200vh;
 }
 
 .example{
 background-color: #DDDEBB;
+height: 100vh;
 }
 
 .resources{
 background-color: #FFF;
+height: 100vh;
 }
 
 .navbar{
