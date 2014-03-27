@@ -2,16 +2,129 @@
 	background-color: #DDDEBB;
 }
 .navbar-nav>li>a{
-	line-height: 38px;
+	line-height: 40px;
 	color: #000000;
 }
 .navbar-brand{
-	line-height: 38px;
+	line-height: 40px;
 	color: #000000;
 }
 
 
-h1, h2, h3{
+h1, h2, h3, h4, h5, h6{
+  font-family: times;
+}
+
+
+body{
+  font-family: Arial,"Rosario"sans-serif;
+font-size: 12px;
+line-height: 14px;
+color: #000;
+}
+
+.navbar-nav, .navbar-brand{
+  font-family: times;
+}
+
+.navbar-brand:hover{
+  color: #fff;
+}
+
+
+.intro{
+background-color: #FFF;
+min-height: 100vh;
+}
+
+.equipment{
+background-color: #DDDEBB;
+min-height: 105vh;
+}
+
+.process{
+background-color: #FFF;
+min-height: 200vh;
+}
+
+.example{
+background-color: #DDDEBB;
+min-height: 105vh;
+}
+
+.resources{
+background-color: #FFF;
+min-height: 100vh;
+}
+
+.navbar{
+min-height: 20px;
+}
+
+
+@media (min-width: 1200px){
+.container {
+width: 970px;
+}
+}
+
+
+ul, ol {
+margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.navbar{
+  background-color: #DDDEBB;
+}
+.navbar-nav>li>a{
+  line-height: 10vh;
+  color: #000000;
+}
+.navbar-brand{
+  line-height: 10vh;
+  color: #000000;
+}
+
+
+h1, h2, h3, h4, h5, h6{
   font-family: times; 
   font-size: 5vh;
   line-height: 3vh;
@@ -30,7 +143,7 @@ color: #000;
 }
 
 .navbar-brand:hover{
-  color: #;
+  color: #fff;
   
 }
 
@@ -60,15 +173,42 @@ background-color: #FFF;
 height: 100vh;
 }
 
-.navbar{
-margin-bottom: 0px;
+
+
+.navbar-static-top {
+z-index: 1000;
+border-width: 0 0 1vh;
 }
+
+.navbar{
+position: relative;
+min-height: 10vh !important;
+margin-bottom: 0vh;
+border: 1vh solid transparent;
+}
+
 
 @media (min-width: 1200px){
 .container {
 width: 970px;
 }
-
 }
 
+p {
+margin: 0 0 1vh;
+}
 
+h1, .h1, h2, .h2, h3, .h3 {
+margin-top: 20vh;
+margin-bottom: 10vh;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+margin-top: 10vh;
+margin-bottom: 5vh;
+}
+
+ul, ol {
+margin-top: 0;
+margin-bottom: 5vh;
+}*/
