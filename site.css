@@ -1,9 +1,9 @@
 .navbar{
-	background-color: #D5d0c0;
+	background-color: #000;
 }
 .navbar-nav>li>a{
 	line-height: 40px;
-	color: #000;
+	color: #656565;
 }
 .navbar-brand{
 	line-height: 40px;
@@ -41,8 +41,9 @@ min-height: 100vh;
 }
 
 .equipment{
-background-color: #D5d0c0;
+background-color: #fff;
 min-height: 105vh;
+color: #000;
 }
 
 .process{
@@ -51,14 +52,14 @@ min-height: 200vh;
 }
 
 .example{
-background-color: #D5d0c0;
+background-color: #fff;
 min-height: 105vh;
 }
 
 .resources{
-background-color: #000;
+background-color: #fff;
 min-height: 100vh;
-color: #656565;
+color: #000;
 }
 
 .navbar{
