@@ -3,26 +3,66 @@
 }
 .navbar-nav>li>a{
 	line-height: 40px;
-	color: #656565;
-}
-.navbar-brand{
-	line-height: 40px;
-	color: #000;
+	color: #428bca;
+  padding-bottom: 0px;
 }
 
+ul.navbar-nav{
+  padding-bottom: 0px;
+  float: right;
+}
+
+.navbar-nav>li>a:hover {
+  color: black ;
+  background-color: #888;
+}
 
 h1, h2, h3, h4, h5, h6{
   font-family: 'Noto Sans', arial, sans-serif;
-  -webkit-text-stroke: 0.5px; 
-  padding-bottom: 7px;
-
+  -webkit-text-stroke: 0.1px;  
+  padding-bottom: 10px;
+  font-weight: bold;
 }
 
+h1{
+  font-size: 50px;
+}
+
+h2{
+  font-size: 38px;
+}
+
+h3{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+h4{
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+h5{
+  font-size: 20px;
+}
+
+h6{
+  font-size: 18px;
+}
+
+header h1{
+color: #888;
+padding-top: 30px;
+}
+
+.byline{
+  color: #888;
+}
 
 body{
   font-family: 'Noto Sans', arial, sans-serif;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 19px;
   color: #000;
 }
 
@@ -34,33 +74,72 @@ body{
   color: #fff;
 }
 
+p, ul{
+  padding-bottom: 10px;
+}
+
+li{
+  padding-bottom: 0px;
+}
 
 .intro{
-background-color: #FFF;
-min-height: 100vh;
+  background-color: #FFF;
+  min-height: 100vh;
 }
 
 .equipment{
-background-color: #fff;
-min-height: 105vh;
-color: #000;
+  background-color: #efeae1;
+  min-height: 150vh;
+  color: #000;
+
+}
+.equipment-image {
+  background-image: url(grains10.jpg);
+  background-repeat: repeat-x;
+  background-position-top: 0;
+  background-position-left: 0;  
 }
 
 .process{
 background-color: #FFF;
-min-height: 200vh;
+min-height: 250vh;
 }
 
-.example{
-background-color: #fff;
-min-height: 105vh;
+.process-image {
+  background-image: url(roastbarley10.jpg);
+  background-repeat: repeat-x;
+  background-position-top: 0;
+  background-position-left: 0;  
 }
+
+
+.example{
+background-color: #efeae1;
+min-height: 150vh;
+}
+
+.example-image {
+  background-image: url(caps2.jpg);
+  background-repeat: repeat-x;
+  background-position-top: 0;
+  background-position-left: 0;  
+}
+
 
 .resources{
 background-color: #fff;
 min-height: 100vh;
 color: #000;
+
 }
+
+.resources-image {
+  background-image: url(hops10.jpg);
+  background-repeat: repeat-x;
+  background-position-top: 0;
+  background-position-left: 0;  
+}
+
 
 .navbar{
 min-height: 20px;
@@ -68,7 +147,8 @@ min-height: 20px;
 
 footer{
   background-color: #000;
-  color: #444;
+  color: #888;
+  padding: 30px 0;
 
 }
 
@@ -77,8 +157,8 @@ footer{
 .container {
 width: 970px;
 }
-}
 
+}
 
 ul, ol {
 margin-top: 0;
@@ -86,9 +166,17 @@ margin-top: 0;
 
 
 .imgcontainer{
-  height: 30vh; overflow: hidden; padding-left: 0; padding-right: 0;
+  height: 60vh; overflow: hidden; padding-left: 0; padding-right: 0;
+  margin-bottom: 30px;
 }
 
+section{
+  padding-bottom: 60px;
+}
+
+img{
+  position: center;
+}
 
 
 
