@@ -62,7 +62,7 @@ padding-top: 30px;
 body{
   font-family: 'Noto Sans', arial, sans-serif;
   font-size: 14px;
-  line-height: 19px;
+  line-height: 22px;
   color: #000;
 }
 
@@ -175,7 +175,7 @@ section{
 }
 
 img{
-  max-width: 94vw;
+  max-width: 93vw;
 }
 
 
