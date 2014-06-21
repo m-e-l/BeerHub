@@ -165,6 +165,14 @@ margin-top: 0;
   margin-bottom: 30px;
 }
 
+@media (max-width: 500px){
+  .imgcontainer{
+  height: 200px;
+  background-size: 880px 200px !important; 
+  }
+}
+
+
 section{
   padding-bottom: 60px;
 }
