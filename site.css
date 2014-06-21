@@ -14,7 +14,7 @@ ul.navbar-nav{
 
 .navbar-nav>li>a:hover {
   color: black ;
-  background-color: #bfbfb0;
+  background-color: #bfbfbf;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -51,12 +51,12 @@ h6{
 }
 
 header h1{
-color: #bfbfb0;
+color: #bfbfbf;
 padding-top: 30px;
 }
 
 .byline{
-  color: #bfbfb0;
+  color: #bfbfbf;
 }
 
 body{
@@ -67,7 +67,7 @@ body{
 }
 
 .equipment, .example, footer{
-  color: #bfbfb0;
+  color: #bfbfbf;
 }
 
 .navbar-nav, .navbar-brand{
@@ -75,7 +75,7 @@ body{
 }
 
 .navbar-brand:hover{
-  color: #bfbfb0;
+  color: #bfbfbf;
 }
 
 p, ul{
@@ -158,8 +158,6 @@ margin-top: 0;
   height: 27vw;
   background-size: 100vw 27vw !important; 
   background-repeat: no-repeat;
-  /*background-position-top: 0;
-  background-position-left: 0; */ 
   overflow: hidden; 
   padding-left: 0; 
   padding-right: 0;
@@ -171,7 +169,6 @@ margin-top: 0;
   .imgcontainer{
   height: 200px;
   background-size: 880px 200px !important; 
-  background-position:center;
   }
 }
 
@@ -181,7 +178,8 @@ section{
 }
 
 img{
-  max-width: 93vw;
+    background-position:center;
+    max-width: 93vw;
 }
 
 
