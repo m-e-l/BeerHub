@@ -157,18 +157,20 @@ margin-top: 0;
   height: 27vw;
   background-size: 100vw 27vw !important; 
   background-repeat: no-repeat;
-  background-position-top: 0;
-  background-position-left: 0;  
+  /*background-position-top: 0;
+  background-position-left: 0; */ 
   overflow: hidden; 
   padding-left: 0; 
   padding-right: 0;
   margin-bottom: 30px;
+
 }
 
 @media (max-width: 500px){
   .imgcontainer{
   height: 200px;
   background-size: 880px 200px !important; 
+  background-position:center;
   }
 }
 
