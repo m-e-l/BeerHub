@@ -14,7 +14,7 @@ ul.navbar-nav{
 
 .navbar-nav>li>a:hover {
   color: black ;
-  background-color: #888;
+  background-color: #bfbfb0;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -51,19 +51,23 @@ h6{
 }
 
 header h1{
-color: #888;
+color: #bfbfb0;
 padding-top: 30px;
 }
 
 .byline{
-  color: #888;
+  color: #bfbfb0;
 }
 
 body{
   font-family: 'Noto Sans', arial, sans-serif;
   font-size: 14px;
   line-height: 22px;
-  color: #000;
+  color: #333;
+}
+
+.equipment, .example, footer{
+  color: #bfbfb0;
 }
 
 .navbar-nav, .navbar-brand{
@@ -71,7 +75,7 @@ body{
 }
 
 .navbar-brand:hover{
-  color: #fff;
+  color: #bfbfb0;
 }
 
 p, ul{
@@ -88,9 +92,9 @@ li{
 }
 
 .equipment{
-  background-color: #efeae1;
+  background-color: #000;
   min-height: 150vh;
-  color: #000;
+
 
 }
 .equipment-image {
@@ -108,7 +112,7 @@ min-height: 250vh;
 
 
 .example{
-background-color: #efeae1;
+background-color: #000;
 min-height: 150vh;
 }
 
@@ -120,8 +124,6 @@ min-height: 150vh;
 .resources{
 background-color: #fff;
 min-height: 100vh;
-color: #000;
-
 }
 
 .resources-image {
@@ -135,7 +137,6 @@ min-height: 20px;
 
 footer{
   background-color: #000;
-  color: #888;
   padding: 30px 0;
 
 }
