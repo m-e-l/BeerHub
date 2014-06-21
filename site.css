@@ -173,15 +173,6 @@ img{
   max-width: 93vw;
 }
 
-@media (max-width: 400px){
-
-  .imgcontainer {
-    height: 434px;
-    background-size: 200vw 280px !important;
-  }
-
-}
-
 
 
 
