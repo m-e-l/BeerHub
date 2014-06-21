@@ -95,9 +95,6 @@ li{
 }
 .equipment-image {
   background-image: url(grains10.jpg);
-  background-repeat: repeat-x;
-  background-position-top: 0;
-  background-position-left: 0;  
 }
 
 .process{
@@ -106,10 +103,7 @@ min-height: 250vh;
 }
 
 .process-image {
-  background-image: url(roastbarley10.jpg);
-  background-repeat: repeat-x;
-  background-position-top: 0;
-  background-position-left: 0;  
+  background-image: url(roastbarley10.jpg); 
 }
 
 
@@ -120,9 +114,6 @@ min-height: 150vh;
 
 .example-image {
   background-image: url(caps2.jpg);
-  background-repeat: repeat-x;
-  background-position-top: 0;
-  background-position-left: 0;  
 }
 
 
@@ -135,9 +126,6 @@ color: #000;
 
 .resources-image {
   background-image: url(hops10.jpg);
-  background-repeat: repeat-x;
-  background-position-top: 0;
-  background-position-left: 0;  
 }
 
 
@@ -155,7 +143,7 @@ footer{
 
 @media (min-width: 1200px){
 .container {
-width: 1000px;
+width: 970px;
 }
 
 }
@@ -166,7 +154,14 @@ margin-top: 0;
 
 
 .imgcontainer{
-  height: 60vh; overflow: hidden; padding-left: 0; padding-right: 0;
+  height: 27vw;
+  background-size: 100vw 27vw !important; 
+  background-repeat: no-repeat;
+  background-position-top: 0;
+  background-position-left: 0;  
+  overflow: hidden; 
+  padding-left: 0; 
+  padding-right: 0;
   margin-bottom: 30px;
 }
 
@@ -182,18 +177,10 @@ img{
 
   .imgcontainer {
     height: 434px;
-    overflow: hidden;
-    padding-left: 0;
-    padding-right: 0;
-    margin-bottom: 30px;
-    background-repeat: no-repeat;
     background-size: 200vw 280px !important;
   }
 
 }
-
-
-
 
 
 
