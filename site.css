@@ -155,7 +155,7 @@ footer{
 
 @media (min-width: 1200px){
 .container {
-width: 970px;
+width: 1000px;
 }
 
 }
@@ -178,11 +178,19 @@ img{
   max-width: 93vw;
 }
 
+@media (max-width: 400px){
 
+  .imgcontainer {
+    height: 434px;
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-size: 200vw 280px !important;
+  }
 
-
-
-
+}
 
 
 
